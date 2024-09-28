@@ -1,0 +1,15 @@
+<Window x:Class="FancyZonesEditor.Sidebar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Layout Sidebar" Height="200" Width="300">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Select Layout" FontWeight="Bold" FontSize="16"/>
+            <!-- Bind buttons to layouts -->
+            <Button Content="Layout 1" Click="Layout1_Click"/>
+            <Button Content="Layout 2" Click="Layout2_Click"/>
+            <Button Content="Layout 3" Click="Layout3_Click"/>
+            <!-- Add more buttons as needed -->
+        </StackPanel>
+    </Grid>
+</Window>
